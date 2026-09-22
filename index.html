@@ -16,7 +16,9 @@
 
     <h2 id="loginRubrik">Logga in här</h2>
 
-    <form id="loginForm">
+
+
+    <form id="loginForm" class="vy-container">
 
 
         <label for="namn" class="visually-hidden">Namn</label>
@@ -25,13 +27,13 @@
         <label for="losenord" class="visually-hidden">Lösenord</label>
         <input type="password" id="losenord" placeholder="Lösenord">
 
-        <button type="submit" id="loginKnappen">Logga in</button>
-        <p id="felMeddelande"></p>
+        <button type="submit" id="loginKnapp">Logga in</button>
+        <p id="felMeddelande" aria-live="polite"></p>
     </form>
 
     <img src="bilder/kantarell.jpeg" alt="två kantareller i skogen" class="svamp">
 
-    <div id="inloggadVy" class="hidden">
+    <div id="inloggadVy" class="hidden vy-container" aria-live="polite">
         <h2 id="valkomstText"></h2>
         <button id="logoutKnapp">Logga ut</button>
     </div>
