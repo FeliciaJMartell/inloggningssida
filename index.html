@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Svampletarna</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Svampletarna</h1>
+    </header>
+
+    <h2 id="loginRubrik">Logga in här</h2>
+
+    <form id="loginForm">
+
+
+        <label for="namn" class="visually-hidden">Namn</label>
+        <input type="text" id="namn" placeholder="Namn">
+
+        <label for="losenord" class="visually-hidden">Lösenord</label>
+        <input type="password" id="losenord" placeholder="Lösenord">
+
+        <button type="submit" id="loginKnappen">Logga in</button>
+        <p id="felMeddelande"></p>
+    </form>
+
+    <img src="bilder/kantarell.jpeg" alt="två kantareller i skogen" class="svamp">
+
+    <div id="inloggadVy" class="hidden">
+        <h2 id="valkomstText"></h2>
+        <button id="logoutKnapp">Logga ut</button>
+    </div>
+
+</body>
+
+</html>
