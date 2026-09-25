@@ -67,7 +67,7 @@ function visaInloggadVy(inloggatNamn) {
     inloggadVy.classList.remove("hidden");
 }
 
-/* Jag använder den inbyggda funktionen loginForm.addEventListener så att koden lyssnar efter vad som ska ske, eftersom min logga ut knapp ligger i en div, så behövde
+/* Jag använder den inbyggda funktionen loginForm.addEventListener så att koden lyssnar efter vad som ska ske, eftersom min logga ut knapp ligger i en section, så behövde
 jag att datorn lyssnar efter klick (när man trycker på knappen med musen).
 Igen så väljer jag vad som ska synas och inte synas. 
 Jag tömmer också rutorna där man skriver användarnamn och lösenord. Hade jag inte gjort det hade det fortsatt stått Kalle och lösenordet när man loggat ut.

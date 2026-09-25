@@ -3,6 +3,7 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     background: rgb(240, 206, 163);
     font-family: 'Times New Roman', Times, serif;
@@ -11,20 +12,20 @@ body {
 h1 {
     font-style: italic;
     text-align: center;
-    color: black; 
+    color: black;
 }
 
 h2 {
     font-style: italic;
     text-align: center;
-    color: black;  
+    color: black;
 }
 
 /* här kommer min css selektor vy container som gäller för både startsida och inloggad vy. Jag använder flexbox column så att det ligger staplat på varandra, 
 då jag ville ha det så på både dator och större skärmar så behövde jag inte ändra något kring det i min media.*/
 
 .vy-container {
-    display: flex; 
+    display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 0.5rem;
@@ -46,7 +47,7 @@ Clip klipper de sista bitarna från lådan, han klipper ner allt på 0.*/
     position: absolute;
     width: 1px;
     height: 1px;
-    overflow: hidden; 
+    overflow: hidden;
     clip: rect(0, 0, 0, 0);
 }
 
@@ -94,8 +95,8 @@ input {
 
 @media (min-width: 768px) {
     .svamp {
-        width: 350px; 
-        height: 350px; 
+        width: 350px;
+        height: 350px;
     }
 
     input {
