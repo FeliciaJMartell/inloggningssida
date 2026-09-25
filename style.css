@@ -32,9 +32,6 @@ då jag ville ha det så på både dator och större skärmar så behövde jag i
     gap: 5px;
 }
 
-input {
-    border: 1.5px solid black;
-}
 
 /*här kommer min css selektor för min placeholder, jag ville ju inte att namn och lösenord skulle stå ovanför, så då behövde jag gömma det. 
 Jag använder absolute så att namn och lösenord inte knuffas med något annat, man kan säga att det läggs i luften. Det tas ut ur det normala dokumentflödet och ligger fritt. 
@@ -84,6 +81,7 @@ input {
     width: 100%;
     padding: 10px;
     font-size: 16px;
+    border: 1.5px solid black;
 }
 
 
