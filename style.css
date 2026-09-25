@@ -51,7 +51,8 @@ Clip klipper de sista bitarna från lådan, den klipper ner allt på 0.*/
     clip: rect(0, 0, 0, 0);
 }
 
-/*Jag ändrar cursor så att den blir en liten hand när man hovrar över knapparna*/
+/*Jag ändrar cursor så att den blir en liten hand när man hovrar över knapparna, lägger även till textfärg eftersom jag märkte att texten blev väldigt ljus
+på min mobil då jag kör darkmode.*/
 
 button {
     margin-top: 15px;
@@ -60,6 +61,7 @@ button {
     background-color: whitesmoke;
     border-radius: 8px;
     cursor: pointer;
+    color: black; 
 }
 
 
