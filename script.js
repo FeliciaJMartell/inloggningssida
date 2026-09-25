@@ -54,7 +54,7 @@ loginForm.addEventListener("submit", function (event) {
 och inte i min html fil är för att det ska bli dynamiskt. Jag vill ju att inloggatNamn ska stämma överens med personen som loggat in. Hade jag hårdkodat
 namnet i min html fil så hade det stått Välkommen Kalle ..... även fast Pelle hade loggat in.
 Så jag anropar visaInloggadVy som då har värdet av vem som loggat in.  
-Sedan väljer jag vad som ska synas och inte synas beroende på add och remove. Här anropar jag även min class hidden som ligger i min css.
+Sedan väljer jag vad som ska synas och inte synas beroende på add och remove. Här lägger jag även till/tar bort min class hidden som ligger i min css.
 Jag valde att göra en egen funktion av detta då jag använder funktionen på två ställen, ett när man loggar in från början & en gång om man råkat klicka ner sidan.*/
 
 

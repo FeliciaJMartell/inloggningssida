@@ -41,7 +41,7 @@ Jag använder absolute så att namn och lösenord inte knuffas med något annat,
 Jag minskar min label (inte namn och lösenord) till en pixel, nu är det typ osynligt för ögat, men fortfarande där.
 Jag använder overflow för att klippa allt överflödigt, min låda är 1px, men namn och lösenord är större, så overflow klipper allting som hamnar utanför lådan. 
 Sedan clip, jag hade kunnat använda clip-path, men då jag kände att det blev mer tydligt för mig själv att använda clip rect så valde jag den. 
-Clip klipper de sista bitarna från lådan, han klipper ner allt på 0.*/
+Clip klipper de sista bitarna från lådan, den klipper ner allt på 0.*/
 
 .visually-hidden {
     position: absolute;
@@ -51,7 +51,7 @@ Clip klipper de sista bitarna från lådan, han klipper ner allt på 0.*/
     clip: rect(0, 0, 0, 0);
 }
 
-/*Jag vänder cursor så att de blir en liten hand när man hovrar över knapparna*/
+/*Jag ändrar cursor så att den blir en liten hand när man hovrar över knapparna*/
 
 button {
     margin-top: 15px;
